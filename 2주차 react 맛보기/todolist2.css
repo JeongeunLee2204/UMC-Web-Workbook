@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px auto;
+  width: 100%;
+  height: auto;
+}
+
+* {
+  background-color: aliceblue;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+hr {
+  width: 70vh;
+  margin-bottom: 50px;
+}
+
+input {
+  width: 80vh;
+  height: 40px;
+}
+
+input:focus {
+  border: 3px, rgb(75, 75, 235), solid;
+}
+
+.listbox {
+  margin: 20px 20px;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  background-color: rgb(31, 141, 237);
+  color: #cce0ff;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(10, 37, 99);
+}
+
+.itemContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-bottom: rgb(78, 148, 208) solid 2px;
+}

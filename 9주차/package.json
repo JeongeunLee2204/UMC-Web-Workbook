@@ -1,0 +1,7 @@
+{
+  "name": "playlist",
+  "version": "1",
+  "description": ".",
+  "main": "index.js",
+  "license": "MIT"
+}

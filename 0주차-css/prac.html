@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+    header {
+      height: 20vh;
+      display: flex;
+    }
+    .innerHeader {
+      display: flex;
+      background-color: navy;
+      width: 30%;
+    }
+    .menu {
+      display: flex;
+      background-color: red;
+      width: 70%;
+    }
+    .gridbox {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      height: 40vh;
+    }
+    .main {
+      display: flex;
+      background-color: navy;
+      grid-column: 1;
+      grid-row: 1;
+    }
+    .combined {
+      display: flex;
+      flex-direction: column;
+      grid-column: 3;
+      grid-row: 1;
+    }
+    .image {
+      background-color: yellowgreen;
+      height: 50%;
+    }
+    .extra {
+      background-color: green;
+      height: 50%;
+    }
+    .hero {
+      background-color: skyblue;
+      height: 40vh;
+      width: 100%;
+    }
+    footer {
+      display: flex;
+      background-color: yellow;
+      height: 20vh;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="innerHeader">header</div>
+    <div class="menu">menu</div>
+  </header>
+  <div class="hero">hero</div>
+  <div class="gridbox">
+    <div class="main">main</div>
+    <div class="combined">
+      <div class="image">image</div>
+      <div class="extra">extra</div>
+    </div>
+  </div>
+  <footer>banner</footer>
+</body>
+
+</html>

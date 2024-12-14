@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px auto;
+  width: 100%;
+  height: auto;
+  border: black solid 10px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+hr {
+  width: 70vh;
+  margin-bottom: 50px;
+}
+
+input {
+  width: 80vh;
+  height: 40px;
+}
+
+.listbox {
+  margin: 20px 20px;
+  width: 20%;
+  background-color: red;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  color: blue;
+  margin-left: 10px;
+}
